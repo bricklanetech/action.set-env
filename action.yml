@@ -1,10 +1,10 @@
 name: Set environment variables from configuration file
 description: Reads in the a configuration file and outputs the contents to environmental variables.
 runs:
-  using: "docker"
-  image: "Dockerfile"
+  using: 'docker'
+  image: 'Dockerfile'
 inputs:
   config_file:
     description: The path to the configuration file. Defaults to env.yaml in the .github folder.
     required: false
-    default: ".github/env.yaml"
+    default: '.github/env.yml'
