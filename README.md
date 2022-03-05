@@ -24,7 +24,7 @@ Which can then be read and output in the following workflow steps:
 
 ```yml
 - name: Setup environment variables
-  uses: konsentus/action.set-env@master
+  uses: propertylift/action.set-env@master
 
 - name: Check variables have been set
   run: |
